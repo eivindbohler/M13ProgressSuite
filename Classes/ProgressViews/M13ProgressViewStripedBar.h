@@ -13,11 +13,11 @@
 
 #import "M13ProgressView.h"
 
-typedef enum {
+typedef NS_ENUM(NSInteger, M13ProgressViewStripedBarCornerType) {
     M13ProgressViewStripedBarCornerTypeSquare,
     M13ProgressViewStripedBarCornerTypeRounded,
     M13ProgressViewStripedBarCornerTypeCircle
-} M13ProgressViewStripedBarCornerType;
+};
 
 /**A progress bar that is striped, and can animate the stripes if desired.*/
 @interface M13ProgressViewStripedBar : M13ProgressView
